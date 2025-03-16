@@ -1,0 +1,99 @@
+## User-specific files
+.vs/
+.vscode/
+.idea/
+
+## Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Windows Installer Cache
+*Installer
+
+## Windows Installer logs
+*.log
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]istros/
+[Dd]ebug-x64/
+[Dd]ebug-x86/
+[Dd]ebug-arm/
+[Dd]ebug-arm64/
+[Dd]Release/
+[Dd]ReleasePublic/
+
+## User-specific files for JetBrains Rider
+.idea/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Windows Installer/Setup files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Azure Functions
+local.settings.json
+
+## Windows Installer Cache
+*Installer
+
+## Node.js
+node_modules/
+
+## Yarn
+.yarn-integrity
+
+## JetBrains Rider
+.idea/
+
+## VS for Mac
+.vscode/
+
+## JetBrains IDEs (e.g., WebStorm, PyCharm, IntelliJ)
+.idea/
+
+## VS Code settings
+.vscode/
+
+# Package directories
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# JetBrains Rider IDE configuration files
+.idea/
+
+# ASP.NET Core
+wwwroot/
+
+# Visual Studio for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Other
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
