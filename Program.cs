@@ -3,24 +3,39 @@ using NotesApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+builder.Configuration.AddEnvironmentVariables();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+string connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("DATABASE_URL environment variable is not set.");
+}
+Console.WriteLine($"Database Connection String: {connectionString}");
+foreach (var item in Environment.GetEnvironmentVariables().Keys)
+{
+    Console.WriteLine($"{item}: {Environment.GetEnvironmentVariable(item.ToString())}");
+}
+
+
 // Configure PostgreSQL
 builder.Services.AddDbContext<NotesContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
+    options.UseNpgsql(connectionString)
            .EnableSensitiveDataLogging() // For debugging
            .LogTo(Console.WriteLine, LogLevel.Information)); // Log to console
 
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowAll", policy => {
-        policy.WithOrigins("http://localhost:3000") // Your frontend URL
+        policy.WithOrigins("https://server-front-wheat.vercel.app", "http://localhost:3000") // Your frontend URL
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
+
+
 var app = builder.Build();
 
 

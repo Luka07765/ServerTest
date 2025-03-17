@@ -7,12 +7,6 @@ C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\ServerTest.
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Npgsql.dll
 C:\Users\lukat\source\repos\ServerTest\obj\Release\net8.0\PubTmp\Out\Npgsql.EntityFrameworkCore.PostgreSQL.dll
